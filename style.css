@@ -90,7 +90,6 @@ img {
 .info_container_namerole_role {
   font-weight: 500;
   font-size: 1.8rem;
-  /* line-height: 2.2rem; */
   color: #828282;
 }
 
@@ -112,11 +111,18 @@ ion-icon {
   margin-right: 1.482rem;
 }
 
+.type {
+  display: none;
+  font-size: 1.4rem;
+  color: #828282;
+  position: absolute;
+  top: -2rem;
+}
+
 .info_container_contact_email,
 .info_container_contact_phone,
 .info_container_description {
   font-size: 1.8rem;
-  /* line-height: 2.2rem; */
 }
 
 .info_container_description {
@@ -374,7 +380,6 @@ ion-icon {
   padding: 1.7rem 0 4.4rem 2.2rem;
   font-weight: 500;
   font-size: 2.4rem;
-  /* line-height: 2.9rem; */
   color: #4f4f4f;
 }
 
@@ -406,7 +411,7 @@ ion-icon {
 
 .exp_card_exp_info_title {
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   color: #333333;
   margin-bottom: 3.3rem;
 }
@@ -783,6 +788,27 @@ ion-icon {
     width: 65%;
     margin: 0 auto;
   }
+
+  ion-icon {
+    display: none;
+  }
+
+  .type {
+    display: inline;
+  }
+
+  .info_container_contact_email,
+  .info_container_contact_phone {
+    position: relative;
+  }
+
+  .info_container_namerole_role {
+    margin-bottom: 5rem;
+  }
+
+  .info_container_contact_email {
+    margin-bottom: 3.046rem;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -809,6 +835,10 @@ ion-icon {
 
   .hobbies_container {
     margin: 3rem 0;
+  }
+
+  .hobbies_card_title {
+    margin: 0px;
   }
 
   .hobbies_card_hobbie {
@@ -872,7 +902,7 @@ ion-icon {
   }
 }
 
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 319px) {
   html {
     font-size: 5px;
   }
