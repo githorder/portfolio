@@ -295,6 +295,7 @@ ion-icon {
   /* line-height: 2.2rem; */
   color: #2f80ed;
   background-color: #fff;
+  text-decoration: none;
 }
 
 .blue-btn {
