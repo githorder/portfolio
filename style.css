@@ -171,7 +171,6 @@ ion-icon {
 .skills_dev_list_item:not(:first-child) {
   font-weight: 500;
   font-size: 1.6rem;
-  /* line-height: 2rem; */
   color: #4f4f4f;
 }
 
@@ -179,7 +178,6 @@ ion-icon {
 .skills_design_list_item:first-child {
   font-weight: bold;
   font-size: 1.8rem;
-  /* line-height: 2.2rem; */
   text-transform: uppercase;
   color: #4f4f4f;
 }
@@ -206,6 +204,34 @@ ion-icon {
   border-radius: 12px;
 }
 
+.skills_dev_list_item:nth-child(2) .progress_bar::after {
+  width: 50%;
+}
+
+.skills_dev_list_item:nth-child(3) .progress_bar::after {
+  width: 60%;
+}
+
+.skills_dev_list_item:nth-child(4) .progress_bar::after {
+  width: 70%;
+}
+
+.skills_dev_list_item:nth-child(5) .progress_bar::after {
+  width: 50%;
+}
+
+.skills_dev_list_item:nth-child(6) .progress_bar::after {
+  width: 50%;
+}
+
+.skills_design_list_item:nth-child(2) .progress_bar::after {
+  width: 50%;
+}
+
+.skills_design_list_item:nth-child(3) .progress_bar::after {
+  width: 0%;
+}
+
 /* SKILLS STYLE */
 
 /* PROJECTS STYLE */
@@ -228,7 +254,6 @@ ion-icon {
 
   font-weight: 500;
   font-size: 1.8rem;
-  /* line-height: 2.2rem; */
   color: #4f4f4f;
 }
 
@@ -261,14 +286,12 @@ ion-icon {
   margin-right: 0.908rem;
   font-weight: 500;
   font-size: 1.6rem;
-  /* line-height: 2rem; */
   color: #4f4f4f;
 }
 
 .project_card_info_title {
   font-weight: 500;
   font-size: 2.4rem;
-  /* line-height: 2.9rem; */
   color: #333333;
   margin-bottom: 1.8rem;
 }
@@ -276,7 +299,6 @@ ion-icon {
 .project_card_info_description {
   font-weight: 500;
   font-size: 1.6rem;
-  /* line-height: 2rem; */
   color: #828282;
   margin-bottom: 5.1rem;
 }
@@ -292,7 +314,6 @@ ion-icon {
   border: 1px solid #2f80ed;
   font-weight: 500;
   font-size: 1.8rem;
-  /* line-height: 2.2rem; */
   color: #2f80ed;
   background-color: #fff;
   text-decoration: none;
