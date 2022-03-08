@@ -418,6 +418,11 @@ ion-icon {
   width: 8.4rem;
 }
 
+.exp_card_exp_img ion-icon {
+  width: 8.4rem;
+  height: 8.4rem;
+}
+
 .exp_card_exp_info {
   padding-left: 2rem;
   padding-right: 3rem;
